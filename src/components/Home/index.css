@@ -1,0 +1,43 @@
+.home-container {
+  background-color: #152850;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.logo {
+  height: 40px;
+  width: 80px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout-button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card-head {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 37px;
+}
+.card-img {
+  height: 300px;
+  width: 50%;
+}
